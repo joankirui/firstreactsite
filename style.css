@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+.header{
+    width: 317px;
+    height: 317px;
+    top: 44px;
+    left: 116px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("https://images.pexels.com/photos/965324/pexels-photo-965324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+.section1{
+    text-align: center;
+    margin-left: 60px;
+}
+.section2{
+    width: 247px;
+    height: 201px;
+    margin-left: 55px;
+}
+p.about,p.interests{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: top;
+    color: #2B283A;
+    width: 242.71px;
+    height: 21px;
+}
+p.about-p,p.interests-p{
+    font-weight: regular;
+    font-size: 10.24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #4A4E74;
+    width: 247px;
+    height: 61px;
+    text-align: top;
+}
+.main{
+    height: 399px;
+    width: 317px;
+    background-color: #F5F5F5;
+}
+.frontend{
+    color: #F47D27;
+    font-size: 12.8px;
+    text-align: top;
+    line-height: auto;
+    width: 178.06px;
+    height: 14.19px;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: top;
+    color: #2B283A;
+    line-height: auto;
+    letter-spacing: 0%;
+    font-family: Inter;
+    width: 178.06px;
+    height:  25.81px;
+}
+.github{
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #4A4E74;
+    letter-spacing: 0%;
+    text-align: top;
+    width: 228px;
+    height: 16px;
+}
+.footer{
+    width: 317px;
+    height: 64px;
+    background-color: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+}
+#container{
+    padding-top: 15px;
+}
+.fa-twitter-square, .fa-facebook-square, .fa-instagram, .fa-github{
+    color: #918E9B;
+    width: 25px;
+    height: 25px;
+}
+.button1, .button2{
+    width: 115px;
+    height: 34px;
+    resize: horizontal;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+}
+.button1{
+    background-color: #FFFFFF;
+    color: #374151;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    border: 1px solid #E8E8E8;
+}
+.button2{
+    background-color: #297FE5;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    border: 0px #FFFFFF;
+}
+.fa-envelope{
+    font-size: 10px;
+}
